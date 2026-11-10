@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Stay Signed In to Microsoft 365",
+  "version": "1.0.0",
+  "description": "Stops Teams and Outlook (web and installed PWA) from asking for your password every time the browser is restarted.",
+  "permissions": ["cookies"],
+  "host_permissions": ["https://login.microsoftonline.com/*"],
+  "background": { "service_worker": "background.js" },
+  "minimum_chrome_version": "110"
+}
